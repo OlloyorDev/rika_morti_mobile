@@ -15,3 +15,25 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # rika_morti_mobile
+
+
+## Технологии
+
+- Flutter: **3.35.6**
+- State management: **Bloc (flutter_bloc)**
+- HTTP клиент: **Dio**
+- Локальное хранилище: **Hive**
+- Архитектура: **Clean Architecture**
+
+---
+
+## Основные функции
+
+- Отображение списка персонажей (через API)
+- Добавление и удаление из избранного
+- Переключение светлой и тёмной темы
+- Кэширование данных (офлайн режим с Hive)
+
+
+# Я не успел реализовать два функционала из-за нехватки времени 
+- Сортировка (по имени, статусу или виду) 
